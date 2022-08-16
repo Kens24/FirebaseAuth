@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Moka";
+    src: url(./fonts/Pineapple\ Days.ttf);
+}
+
+.title {
+    font-family: "Moka";
+    font-size: 2.5em;
+    color: #00FFE4;
+    text-align: center;
+    margin-top:0px;
+    position: relative;
+}
+
+form{
+    background: #314D79;
+    padding:2rem 2rem;
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 200px;
+    margin:auto;
+  }
+
+.input{
+    border-radius: 0.3rem ;
+    margin:auto;
+    display:block;
+    top:0px;
+    border: 2px solid #FFFFFF;
+  }
+
+.input-password{
+    border-radius: 0.3rem ;
+    margin:auto;
+    display:block;
+    top:0px;
+    margin-top: 4px;
+    border: 2px solid #FFFFFF;
+}
+
+
+
+.btn{
+    width: 28%;
+    margin-left: 61px;
+    margin-top: 3px;
+    border-radius: 0.3rem;
+    /*text-align: right;*/
+    background-color: #1877F2;
+    font-weight: bold;
+    border: 2px solid #1877F2;
+}
+
+.btn-g{
+    width: 28%;
+    margin-left: 6.5px;
+    margin-top: 3px;
+    border-radius: 0.3rem;
+    /*text-align: right;*/
+    background-color: #EA4335;
+    font-weight: bold;
+    border: 2px solid #EA4335;
+}
+
+.play-btn{
+    width: 59.5%;
+    border-radius: 0.3rem;
+    margin-top: 3.5px;
+    margin-left: 61px;
+    background-color: #00FFE4;
+    border: 2px solid #00FFE4;
+    font-weight: 700;
+    color:#373737;
+}
+
+.fb{
+    margin-left: -10px;
+}
+
+.Gg{
+    margin-left: -10px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 60px;
+}
+/*Login text link*/
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #00FFE4;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2b8179;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #FFFFFF;
+    background-color: transparent;
+    text-decoration: underline;
+  }
